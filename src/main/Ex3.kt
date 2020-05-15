@@ -2,20 +2,20 @@ package main
 
 class Ex3 {
     fun getSeason(num: Int): String {
-        when(num) {
-            1 -> return "Winter"
-            2 -> return "Winter"
-            3 -> return "Spring"
-            4 -> return "Spring"
-            5 -> return "Spring"
-            6 -> return "Summer"
-            7 -> return "Summer"
-            8 -> return "Summer"
-            9 -> return "Autumn"
-            10 -> return "Autumn"
-            11 -> return "Autumn"
-            12 -> return "Winter"
-            else -> return "Wrong value"
+        return when(num) {
+            1 -> "Winter"
+            2 -> "Winter"
+            3 -> "Spring"
+            4 -> "Spring"
+            5 -> "Spring"
+            6 -> "Summer"
+            7 -> "Summer"
+            8 -> "Summer"
+            9 -> "Autumn"
+            10 -> "Autumn"
+            11 -> "Autumn"
+            12 -> "Winter"
+            else -> "Wrong value"
         }
     }
 }
